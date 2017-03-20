@@ -1,0 +1,7 @@
+body{margin: 0;}
+.container{margin: 20px;padding: 20px;position: relative;background-color: #bbb;overflow:auto;}
+.left,.right,.center{border-color: #ccc;border:1px solid #333;padding: 20px;}
+.left{width: 200px;position:absolute;left:20px;top:20px;}
+.right{width: 130px;position:absolute;right: 20px;top:20px;}
+.center{margin: 0 192px 0 262px;}
+

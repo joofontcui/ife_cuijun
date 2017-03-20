@@ -1,0 +1,9 @@
+body{margin:0;}
+
+.container{margin:20px;background-color: #aaa;position: relative;padding: 20px;}
+.left,.center,.right{background-color: #fff;border:1px solid red;}
+.left{position: absolute;left:20px;top:20px;width: 200px;}
+.center{margin: 0px 102px 0px 222px;}
+.right{position: absolute;right: 20px;top:20px;width: 80px;}
+
+img{width: 80px;}

@@ -1,0 +1,18 @@
+/*globay*/
+body{margin: 0;font-family: "Microsoft YaHei";background-color: red;}
+
+/*content*/
+.container{margin-top: 20px;margin-left: 20px;margin-right: 20px;background-color: #eee;position: relative;height: 500px;border:1px solid #999;}
+
+/*left*/
+.left{background-color: #123;position: absolute;width: 160px;margin: 20px;left: 0px;padding: 20px;border:1px solid #999;}
+.left-team-logo{background-color: #aaa;width: 80px; height: 80px;}
+.left-team-name{display: inline-block;vertical-align: top;width: calc(100% - 90 px);word-wrap: break-word;}
+
+/*middle*/
+.center{background-color: #456;position: absolute;width: calc(100% - 400px);margin: 20px;left: 220px;border:1px solid #999;}
+.center-content{margin: 0;padding: 20px;}
+
+/*right*/
+.right{background-color: #789;position: absolute;width: 120px;margin: 20px;right: 0px;border:1px solid #999;}
+.right-person-logo{width: 80px;height: 80px;background-color: #ccc;margin: 20px;}

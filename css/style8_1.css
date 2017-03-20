@@ -1,0 +1,75 @@
+/*body{margin: 0;padding: 0;}
+
+.all-number{margin: 0;padding: 0;width: 100%;}
+.fir,.sec,.third{width: 100%;display: flex;}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{background-color: #EEE;height: 50px;}
+*/
+/*屏幕大于768*/
+/*@media screen and (min-width: 768px){ 
+.fir .one,.fir .two,.fir .three{flex: 1;margin-top: 20px;margin-left: 20px;border:1px solid #333;}
+.fir .three{margin-right: 20px;}
+.sec .one,.sec .two,.sec .three{margin-top: 20px;margin-left: 20px;border:1px solid #333;}
+.sec .one{flex: 3;}
+.sec .two{flex: 6;}
+.sec .three{flex: 3;margin-right: 20px;}
+.third .one,.third .two,.third .three,.third .four,.third .five{margin-top: 20px;margin-left: 20px;border:1px solid #333;}
+.third .one{flex: 1;}
+.third .two{flex: 1;}
+.third .three{flex: 2;}
+.third .four{flex: 2;}
+.third .five{flex: 6;margin-right: 20px;}
+}*/
+
+/*屏幕小于768*/
+/*@media screen and (max-width: 768px){ 
+.fir .one,.fir .two,.fir .three{flex: 1;margin-top: 20px;margin-left: 20px;border:1px solid #333;}
+.fir .three{flex: 1;margin-right: 20px;}
+.sec .one{flex: 1;margin-top: 20px;margin-left: 20px;border:1px solid #333;margin-right: 20px;}
+.third .one,.third .two,.third .three{margin-top: 20px;margin-left: 20px;border:1px solid #333;}
+.third .one{flex: 3;}
+.third .two{flex: 6;}
+.third .three{flex: 3;margin-right: 20px;}
+}*/
+
+/*以上是自己代码，下面是学习代码*/
+/*html,body{margin: 0;padding: 0;}
+.wrapper{margin: 0;padding: 10px;width: 100%;box-sizing: border-box;}
+.outer{padding: 10px;float: left;display: inline;box-sizing: border-box;}
+.inner{margin: 0;padding: 0;height: 50px;border:1px solid #333;background-color: #ccc;text-align: center;line-height: 50px;}
+
+@media screen and (min-width: 768px){
+	.col-md-1{width: 8.3%;}
+	.col-md-2{width: 16.67%;}
+	.col-md-3{width: 25%;}
+	.col-md-4{width: 33.33%;}
+	.col-md-6{width: 50%;}
+}
+
+@media screen and (max-width: 768px){
+	.col-sm-2{width: 16.66667%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-6{width: 50%;}
+    .col-sm-8{width: 66.66667%;}
+	.col-sm-12{width: 100%;}
+}*/
+
+/*练习代码*/
+html,body{margin: 0;padding: 0;}
+.wrapper{margin: 0;padding: 10px;box-sizing:border-box;}
+.outer{margin: 0;padding: 10px;box-sizing:border-box;display: inline;float: left;}
+.inner{border:1px solid #333;height:50px;background-color: #ccc;text-align: center;line-height: 50px;}
+
+@media screen and (min-width: 768px){
+	.col-md-1{width: 8.33%;}
+	.col-md-2{width: 16.66%;}
+	.col-md-3{width: 25%}
+	.col-md-4{width: 33.3%}
+	.col-md-6{width: 50%}
+}
+@media screen and (max-width: 768px){
+	.col-sm-2{width: 16.66%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-6{width: 50%;}
+	.col-sm-8{width: 66.66%;}
+	.col-sm-12{width: 100%;}
+}

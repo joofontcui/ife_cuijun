@@ -1,0 +1,37 @@
+/*global*/
+body{margin: 0;font-family: "Microsoft YaHei";background-color: #ccc;position: relative;}
+ul{list-style: none;}
+
+/*header*/
+header{margin:0;background-color: #333;color: #fff;}
+.main-nav{margin: 0 auto;width: 90%;position: relative;padding: 10px;}
+.main-nav .logo{}
+.main-nav .nav-links{margin: 0;padding: 0;position: absolute;right: 0;top: 50%;margin-top: -0.5em;}
+.main-nav .nav-links li{font-color: #fff;float: left;margin-left: 5em;}
+.main-nav .nav-links a{text-decoration: none;color: #fff;}
+
+/*content*/
+.content{margin: 0;}
+.container{margin: 0 auto;background-color: #fff;padding: 20px;margin: 20px 480px 0px 20px;}
+.container p{text-indent: 2em;}
+figure{border:1px solid #ccc;width: 150px;text-align: center;padding: 10px;display: inline-block;}
+figure img{width: 100%;}
+
+table{width: 100%;}
+thead{background-color: #333;color: #fff;}
+tfoot{background-color: #ccc;}
+
+.input-title{display: inline-block;width: 40%;text-align: right;vertical-align: top;}
+.input-tip{margin-left: 40%;}
+input{padding: 5px;}
+form{line-height: 40px;}
+textarea{width: 200px;height: 100px;}
+.aside-form-botton{width: 100%;}
+button{width: 100%;background-color: blue;color: #fff;padding: 20px;border-radius: 10px;cursor: pointer;}
+
+/*aside*/
+aside{margin: 0 auto;background-color: #fff;width: 400px;padding: 20px;margin-top: 20px;position: absolute;right:20px;top:75px;}
+aside h2{border-left: 3px solid #333;line-height: 2em;padding-left: 2em;}
+
+/*footer*/
+footer{margin: 0;background-color: #333;text-align: center;color: #fff;padding: 20px;margin-top: 20px;}

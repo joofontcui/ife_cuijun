@@ -1,0 +1,6 @@
+body{margin: 0;}
+.container{margin: 20px;padding: 20px;background-color: #aaa;overflow: auto;}
+.left,.right,.center{border:1px solid #333;padding: 20px;}
+.left{float:left;width: 200px;}
+.right{float: right;}
+.center{margin:0 192px 0 262px;}
